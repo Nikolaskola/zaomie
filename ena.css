@@ -78,3 +78,34 @@ h1 {
     opacity: 1; /* Prikazivanje slike na hover */
     bottom: -200px; /* Pomeranje slike ispod datuma */
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Osnovni stilovi */
+h1 {
+    font-size: 24px;
+}
+
+/* Stilovi za mobilne uređaje */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px; /* Manja veličina naslova */
+    }
+    p {
+        font-size: 16px; /* Manja veličina teksta */
+    }
+}
+
+/* Stilovi za veće ekrane */
+@media only screen and (min-width: 601px) {
+    h1 {
+        font-size: 30px; /* Veća veličina naslova */
+    }
+    p {
+        font-size: 18px; /* Veća veličina teksta */
+    }
+}
+
